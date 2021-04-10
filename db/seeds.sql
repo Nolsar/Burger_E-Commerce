@@ -1,6 +1,6 @@
-INSERT INTO cats (name) VALUES ('Molly');
-INSERT INTO cats (name) VALUES ('Charlie');
-INSERT INTO cats (name, sleepy) VALUES ('Poppy', true);
-INSERT INTO cats (name, sleepy) VALUES ('Oscar', true);
-INSERT INTO cats (name, sleepy) VALUES ('Smudge', true);
-INSERT INTO cats (name) VALUES ('Daisy');
+--inserts values into the table 'burgers'--
+NSERT INTO burgers (burger_name, devoured)
+VALUES ('Angus Burger', FALSE), ('Cheeseburger', FALSE), ('Bacon Cheeseburger', TRUE);
+
+--returns the table 'burgers'--
+SELECT * FROM burgers;
