@@ -1,6 +1,3 @@
---inserts values into the table 'burgers'--
-NSERT INTO burgers (burger_name, devoured)
-VALUES ('Angus Burger', FALSE), ('Cheeseburger', FALSE), ('Bacon Cheeseburger', TRUE);
-
---returns the table 'burgers'--
-SELECT * FROM burgers;
+INSERT INTO burgers (name, devoured) VALUES ('Cheese Burger', FALSE);
+INSERT INTO burgers (name, devoured) VALUES ('Hamburger', FALSE);
+INSERT INTO burgers (name, devoured) VALUES ('Pizza Burger', FALSE);
